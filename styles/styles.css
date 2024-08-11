@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+}
+
+header .profile-pic {
+    width: 200px;
+    height: 150px;
+    border-radius: 87%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #e8491d;
+}
+
+/* Main Content */
+main {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #35424a;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Projects Section */
+#conocimientos .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+#contact {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+}
+
+#contact p {
+    font-size: 16px;
+}
+
+#contact a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
