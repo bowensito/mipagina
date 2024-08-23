@@ -20,7 +20,7 @@ button {
   padding: 5px;
 }
 
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -63,7 +63,6 @@ header p {
     margin: 0;
 }
 
-/* Navigation */
 nav {
     background: #35424a;
     color: #ffffff;
@@ -91,7 +90,7 @@ nav ul li a:hover {
     color: #e8491d;
 }
 
-/* Main Content */
+
 main {
     margin: 20px 0;
 }
@@ -106,7 +105,7 @@ section p {
     font-size: 16px;
 }
 
-/* Projects Section */
+
 #conocimientos .projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -134,7 +133,7 @@ section p {
     font-size: 16px;
 }
 
-/* Contact Section */
+
 #contact {
     background: #35424a;
     color: #ffffff;
