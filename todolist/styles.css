@@ -1,0 +1,47 @@
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    width: 20%;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #c403ff;
+    transition: background-color .5s;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    text-align: left;
+}
+
+ul li {
+    border-bottom: 1px dashed #333;
+    margin: 8px 0;
+}
+
+span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(133, 136, 134);
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: darkred;
+}
